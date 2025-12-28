@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1 style="text-align: center;">College Timetable</h1>
+
+    <style>table,tr,th,td{border: 1px solid rgb(10, 10, 11);}</style>
+
+    <table>
+        <th>Day and Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednsday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+
+       <tr>
+         <td>10 to 11</td>
+          <td>Bio</td>
+         <td>Marathi</td>
+         <td>Maths</td>
+         <td rowspan="2">Chem</td>
+         <td rowspan="2">Phy</td>
+        
+         <td rowspan="2">PT</td>
+       </tr>
+
+       <tr>
+          <td>11 to 12</td>
+         <td>Maths</td>
+         <td>Bio</td>
+         <td>Marathi</td>
+      
+       </tr>
+
+       <tr>
+        <td>1 to 2</td>
+         <td colspan="2">Chem</td>
+         <td>Phy</td>
+         <td>Maths</td>
+         <td>Bio</td>
+         <td>Marathi</td>
+        </tr>
+
+       <tr>
+         <td>2 to 3</td>
+          <td>Phy</td>
+         <td>Bio</td>
+         <td>Marathi</td>
+         <td>PT</td>
+         <td colspan="2"> Maths</td>
+       </tr>
+        
+       
+    </table>
+</body>
+</html>
