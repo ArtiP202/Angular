@@ -1,0 +1,22 @@
+ body{
+            background-color: rgb(212, 160, 200);
+        }
+       
+        .card1{
+          width: 200px;
+          height: 200px;
+          background-color: rgb(196, 143, 186);
+          box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+         }
+         .card2{
+          width: 200px;
+          height: 200px;
+          background-color: rgba(172, 16, 143,0.3);
+          box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+         }
+         .card3{
+          width: 200px;
+          height: 200px;
+          background-color: darkorchid;
+          box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+         }
