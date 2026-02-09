@@ -1,0 +1,5 @@
+2) Opacity Overlay Banner (RGBA) 
+Create a hero section: 
+ Background image 
+ On top, a text box with rgba(0,0,0,0.5) overlay 
+ Text should be readable
